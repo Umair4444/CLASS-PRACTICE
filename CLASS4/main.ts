@@ -13,4 +13,3 @@ console.log(++b);
 console.log(b++);
 console.log(b);
 
-0336 0848648 sohaib it
