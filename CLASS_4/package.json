@@ -1,0 +1,24 @@
+{
+  "name": "class_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+// #! usr/bin/env node    to publish as npx file
+// shabang file
+
+// type npm login in terminal to upload npx file
+
+// add bin and assign js file in package.json 
+// "bin" : "file_name.js"
+// name shoukd be unique
+
+
+ 

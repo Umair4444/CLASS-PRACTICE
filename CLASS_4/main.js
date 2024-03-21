@@ -1,0 +1,16 @@
+"use strict";
+let a = 5;
+let b = 1;
+console.log(a);
+console.log(a++);
+console.log(a);
+console.log(b);
+console.log(b);
+console.log(++b);
+console.log(b++);
+console.log(b);
+console.log("______________________________________________");
+let j = 1;
+let k = 5;
+let l = ++j + j++ + --k + k-- + j + k;
+console.log(l);
