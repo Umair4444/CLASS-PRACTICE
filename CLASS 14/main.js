@@ -3,7 +3,6 @@
 //     green = "Green",
 //     yellow = "Yellow"
 // }
-export {};
 // console.log(trafficLight["red"])
 // const gender = ["Male","Female",101]
 // console.log(gender)
@@ -33,11 +32,12 @@ export {};
 // for unknown number of argument
 // example for sending whatsapp images and emails attachment
 // console.log is a rest parameter function
-// function wallet(color: string, ...args: string[]) {
-//     console.log(color)
-//   console.log(args);
-// }
-// wallet("blue", "currency", "Nic", "Atm Cards");
+function wallet(color, ...args) {
+    console.log(color);
+    console.log(args);
+}
+wallet("blue", "currency", "Nic", "Atm Cards", "Buss.. Card");
+export {};
 // function fileUpload(type: string, ...files: string[]) {
 //   console.log(type);
 //   //   for(let file of files){

@@ -46,12 +46,12 @@
 // example for sending whatsapp images and emails attachment
 // console.log is a rest parameter function
 
-// function wallet(color: string, ...args: string[]) {
-//     console.log(color)
-//   console.log(args);
-// }
+function wallet(color: string, ...args: string[]) {
+    console.log(color)
+  console.log(args);
+}
 
-// wallet("blue", "currency", "Nic", "Atm Cards");
+wallet("blue", "currency", "Nic", "Atm Cards","Buss.. Card");
 
 // function fileUpload(type: string, ...files: string[]) {
 //   console.log(type);
