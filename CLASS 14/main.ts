@@ -7,7 +7,6 @@
 // console.log(trafficLight["red"])
 
 // const gender = ["Male","Female",101]
-
 // console.log(gender)
 
 // type Records = [number,string,boolean]
@@ -46,12 +45,13 @@
 // example for sending whatsapp images and emails attachment
 // console.log is a rest parameter function
 
-function wallet(color: string, ...args: string[]) {
-    console.log(color)
-  console.log(args);
-}
+// function wallet(color: string, ...args: string[]) {
+//   console.log(color);
+//   console.log(args);
+// }
 
-wallet("blue", "currency", "Nic", "Atm Cards","Buss.. Card");
+
+// wallet("blue", "currency", "Nic", "Atm Cards", "Buss.. Card"); // sending unknown number of args to func parameter
 
 // function fileUpload(type: string, ...files: string[]) {
 //   console.log(type);
@@ -95,19 +95,19 @@ wallet("blue", "currency", "Nic", "Atm Cards","Buss.. Card");
 //Narrowing
 // to know the what actually is the data type
 
-// let age: number | string;
-// age = "twenty-two";
-// // console.log(typeof age);
-// // age = "33";
-// // console.log(typeof age);
+let age: number | string;
+age = "twenty-two";
+console.log(typeof age);
+age = 33;
+console.log(typeof age);
 
-// if (typeof age === "number") {
-//   console.log("I am a Number");
-//   console.log(age.toFixed(2));
-// } else if (typeof age === "string") {
-//   console.log("I am a String");
-//   console.log(age.length);
-// }
+if (typeof age === "number") {
+  console.log("I am a Number");
+  console.log(age.toFixed(2));
+} else if (typeof age === "string") {
+  console.log("I am a String");
+  // console.log(age.length);
+}
 
 // TYPE => ANY
 // will accept any data type
@@ -148,7 +148,7 @@ wallet("blue", "currency", "Nic", "Atm Cards","Buss.. Card");
 // }
 
 // // Inferred return type is never
-// function fail() {
+// function fail() : never {
 //   return error("Something failed");
 // }
 
@@ -165,11 +165,11 @@ wallet("blue", "currency", "Nic", "Atm Cards","Buss.. Card");
 
 // let value: unknown = "Ali";
 
-// // console.log(typeof value);
+// console.log(typeof value);
 // let lowerCase = (value as string).toLowerCase();
 // console.log(lowerCase);
-// // console.log((value as string).toUpperCase());
-// // console.log(typeof value);
+// console.log((value as string).toUpperCase());
+// console.log(typeof value);
 
 // let num: unknown = 20;
 // let mathAround = (num as number).toFixed(3);

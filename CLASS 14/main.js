@@ -32,12 +32,11 @@
 // for unknown number of argument
 // example for sending whatsapp images and emails attachment
 // console.log is a rest parameter function
-function wallet(color, ...args) {
-    console.log(color);
-    console.log(args);
-}
-wallet("blue", "currency", "Nic", "Atm Cards", "Buss.. Card");
-export {};
+// function wallet(color: string, ...args: string[]) {
+//   console.log(color);
+//   console.log(args);
+// }
+// wallet("blue", "currency", "Nic", "Atm Cards", "Buss.. Card"); // sending unknown number of args to func parameter
 // function fileUpload(type: string, ...files: string[]) {
 //   console.log(type);
 //   //   for(let file of files){
@@ -70,18 +69,20 @@ export {};
 // console.log(prod);
 //Narrowing
 // to know the what actually is the data type
-// let age: number | string;
-// age = "twenty-two";
-// // console.log(typeof age);
-// // age = "33";
-// // console.log(typeof age);
-// if (typeof age === "number") {
-//   console.log("I am a Number");
-//   console.log(age.toFixed(2));
-// } else if (typeof age === "string") {
-//   console.log("I am a String");
-//   console.log(age.length);
-// }
+let age;
+age = "twenty-two";
+console.log(typeof age);
+age = 33;
+console.log(typeof age);
+if (typeof age === "number") {
+    console.log("I am a Number");
+    console.log(age.toFixed(2));
+}
+else if (typeof age === "string") {
+    console.log("I am a String");
+    console.log(age.length);
+}
+export {};
 // TYPE => ANY
 // will accept any data type
 // let val: any;

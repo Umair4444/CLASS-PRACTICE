@@ -12,7 +12,7 @@ function welcome(user_name: string, age: number) {
 }
 
 // paramaeter and arguments should be declare in same sequence
-// // calling function using parameter
+// calling function using parameter
 // welcome("Umair", 20); // arguments
 // welcome("Ali", 5); // arguments
 // welcome("Khan", 5); // arguments

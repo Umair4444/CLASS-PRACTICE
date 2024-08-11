@@ -1,6 +1,5 @@
 // let fruitsArray = ["Apple", "Banana", "Mango", "Orange", "Kiwi"];
 // console.log(fruitsArray);
-export {};
 // console.log(fruitsArray[0]);
 // console.log(fruitsArray[1]);
 // console.log(fruitsArray[2]);
@@ -22,9 +21,9 @@ export {};
 // console.log(add1);
 // console.log(add2);
 // console.log(fruitsArray);
-// // using shift method pop()
-// let remove3 = fruitsArray.shift(); // remove last element
-// let remove4 = fruitsArray.shift(); // remove last element
+// // using shift method shift()
+// let remove3 = fruitsArray.shift(); // remove first element
+// let remove4 = fruitsArray.shift(); // remove first element
 // console.log(remove1); // removes last element i.e Watermelon
 // console.log(remove2); // removes last element i.e Banana
 // console.log(fruitsArray); // now last element will be remove and new array will be this array
@@ -34,14 +33,21 @@ export {};
 // console.log(add1);
 // console.log(add2);
 // console.log(fruitsArray);
-// HINT
+// //  HINT
 // // Define an array
 // let myArray: number[] = [];
 // // Push an element into the array
 // myArray.push(10);
+// myArray.push(20);
+// myArray.push(30);
+// console.log(myArray);
 // // Store the pushed element into a variable
-// let pushedElement: number = myArray[myArray.length - 1];
-// console.log(pushedElement); // Output: 10
+// let pushedElement1: number = myArray[myArray.length - 3];
+// let pushedElement2: number = myArray[myArray.length - 2];
+// let pushedElement3: number = myArray[myArray.length - 1];
+// console.log(pushedElement1); // Output: 10
+// console.log(pushedElement2); // Output: 20
+// console.log(pushedElement3); // Output: 30
 // // SLICE METHOD slice() return new array
 // // first argument is included i.e=> 1 and second argument is excluded i.e => 3
 // let slicedArray = fruitsArray.slice(1, 3);

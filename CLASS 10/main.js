@@ -10,17 +10,20 @@
 // console.log(Add(2, 5));
 // // Arrow Funtion
 // let oddOrEven = (num1: number) => {
-//   //   const res = `The number ${num1} is  ${num1 % 2 === 0}`;
-//   //   return res;
+//     // const res = `The number ${num1} is  ${num1 % 2 === 0}`
+//     // return res;
 //   if (num1 % 2 == 0) {
 //     console.log("Even");
 //   } else {
 //     console.log("Odd");
 //   }
 // };
-// console.log(oddOrEven(300));
-// console.log(oddOrEven(21));
-// console.log(oddOrEven(16));
+// // console.log(oddOrEven(300));
+// // console.log(oddOrEven(21));
+// // console.log(oddOrEven(16));
+// oddOrEven(300)
+// oddOrEven(21)
+// oddOrEven(16)
 // // Arrrow Function in one line
 // const Name = () => "Ali";
 // const luckynumber = () => 44;
@@ -37,6 +40,7 @@
 // Calc(2, 5, "+");
 // Local And Global Variable
 var PAkarmy = "Pak Army NO Limit"; // Global Variable
+var Branch = "new";
 var policeStation1 = function () {
     var Branch = "Gulshan"; // Local Variable
     console.log(PAkarmy);
@@ -47,5 +51,8 @@ var policeStation2 = function () {
     console.log(PAkarmy);
     console.log(Branch);
 };
+console.log(Branch);
 policeStation1();
 policeStation2();
+// Nrarest scope will run first compare to global Scope
+// Arrays 

@@ -1,28 +1,29 @@
-function google_maps(from: string, to: string) {
-  console.log(`I am going from ${from} to ${to}`);
-}
+// function google_maps(from: string, to: string) {
+//   console.log(`I am going from ${from} to ${to}`);
+// }
 
-google_maps("North Karachi", "Governor House");
+// google_maps("North Karachi", "Governor House");
 
-function game(user: string = "PLAYERONE") {
-  console.log(user);
-}
+// function game(user: string = "PLAYERONE") {
+//   console.log(user);
+// }
 
-game();
-game("Umair");
+// game();
+// game("Umair");
 
 function add(num1: number = 2, num2: number = 5) {
   return `${num1 + num2}`;
 }
 
-add(undefined, 10);
+console.log(add(5)) //10
+console.log(add(undefined, 10)) //12
 
 function multiply(num1: number, num2: number) {
   return `${num1 * num2}`;
 }
 
-console.log(multiply(2, 5));
-// return ype is used to return you some value when a function runs
+console.log(multiply(2, 5)); //10
+// return type is used to return you some value when a function runs
 // variable is a container to store data
 // function is used to store line of code
 function division(num1: number, num2: number) {
@@ -50,10 +51,11 @@ let exe = function math_operation(a: number, b: number): number[] {
   return [sum, multiply];
 };
 
-let roll = exe(2, 3);
-console.log(roll);
+let roll = exe(2, 3); 
+console.log(roll); //[5,6]
 
 let [summ, multi] = roll;
+// let [multi,summ] = roll
 
 console.log(summ, "is sum");
 console.log(multi, "is multi");

@@ -30,10 +30,10 @@
 // let boolArray: Boolranarray = [true, false, true, true];
 // console.log(boolArray);
 
-// TYPE UNION
+// // TYPE UNION
 // allow multiple data types
 
-// let mixedarray: (string | number)[] = ["string", 23];
+// let mixedarray: (string | number)[] = ["Umair", 23, "Azhar", 20];
 // console.log(mixedarray);
 
 // let myRollNo1: string | number = 123;
@@ -50,26 +50,26 @@
 // TYPE LITERALS
 // Assign Value as a data types
 
-// let size: "Small" | "Medium" | "Large";
+// type Size = "Small" | "Medium" | "Large";
 
-// size = "Small"
+// let size:Size = 'Small'
 
 //  size = "Small";
 //  size = "Medium";
 //  size = "Large";
 // console.log(size);
 
-// let TrafficLights : "Green" | "Red" | "Yellow"
-// TrafficLights = "Green"
-// console.log(TrafficLights)
+// type TrafficLights = "Green" | "Red" | "Yellow";
+// let trafficlights: TrafficLights = "Green";
+// console.log(trafficlights);
 
-// TrafficLights = "Red"
-// console.log(TrafficLights)
+// trafficlights = "Red";
+// console.log(trafficlights);
 
-// TrafficLights = "Yellow"
-// console.log(TrafficLights)
+// trafficlights = "Yellow";
+// console.log(trafficlights);
 
-// TrafficLights = "Blue" // wrong type because it is not define in TrafficLight
+// trafficlights = "Blue"; // wrong type because it is not define in TrafficLight
 
 // Giving types to a Object
 
@@ -167,7 +167,7 @@
 // console.log(classRoom);
 // console.log(classRoom.teacherName);
 
-// Example
+// // Example
 // type Emp = {
 //   employeeName: string;
 //   empexperience: number;
@@ -207,3 +207,4 @@ let office: Office = {
   managerName: "BOSS",
 };
 console.log(office);
+
