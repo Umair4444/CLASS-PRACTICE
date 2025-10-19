@@ -1,14 +1,14 @@
 //  // promise function with no parameter
-// function inventoryStock() {
-//   return new Promise((res, rej) => {
-//     setTimeout(() => {
-//       res("It is available");
-//     });
-//   }, 2000);
-// }
-// inventoryStock().then((result) => {
-//   console.log(result, "You can have it.");
-// });
+function inventoryStock() {
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            res("It is available");
+        }, 2000);
+    });
+}
+inventoryStock().then((result) => {
+    console.log(result, "You can have it.");
+});
 // // promise function with parameter
 // function inventoryStock(mat: number) {
 //   return new Promise((res, rej) => {
